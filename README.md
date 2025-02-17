@@ -7,7 +7,9 @@ Question : given the power p=100uW , perform DC analysis , Transient analysis an
 
 
 Aim: To find DC operating point find gain using transient analysis and AC analysis.
-Components:Mosfet, resistor, dc power supply.
+
+Components: Mosfet, resistor, dc power supply.
+
 Procedure :
 Make the circuit connection as given above.
 connect the RD resistor to the drain terminal and dc power supply to the gate terminal and also to the resitor
@@ -18,6 +20,8 @@ as we know the value of power=50uW and voltage=1.8v
 we get current=27uA
 by adjusting the value of width and length of the mosfet we will get the current Id 
 As length is given 180nm by adjusting we will get width=1.08um
+
+
 1. DC analysis
 
    
@@ -68,7 +72,6 @@ As length is given 180nm by adjusting we will get width=1.08um
      AC Analysis
 
      The AC response graph confirms that the circuit remains stable at different frequencies.
-     The gain(-9.94 dB) and phase shift(which is nearly 180deg) align with theoretical expectations.
      The circuit maintains its performance across the tested frequency range.
 
 
@@ -84,7 +87,25 @@ As length is given 180nm by adjusting we will get width=1.08um
 
 
    # Design-2
-   Aim:
+   Aim : To find DC operating point,find gain using transient analysis and AC analysis.
+
+   Components : Mosfets (M1 and M2),DC power supply.
+
+   Procedure :
+
+   Make the circuit connection as show above.
+   Connect DC power supply to the gate terminal.
+   Connect the source terminal to the ground.
+   Set the input voltage by obtaining VTC curve and VDD to 1.8 V.
+
+Using the Formula for Power,
+
+P=V*I/n
+
+We will get the Values of Id as,
+
+Id= 5.56 * 10^-5 A
+we have to get the output current, Id for the given circuits by adjusting the values of L & W of both the MOSFETS M1 & M2 ( Length and Width of the Channel of the MOSFET)
    
 
  
