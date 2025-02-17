@@ -131,6 +131,31 @@ As length is given 180nm by adjusting we will get width=1.08um
    ![Screenshot 2025-02-17 200103](https://github.com/user-attachments/assets/e687b280-d032-4260-8452-b10457103dfc)
 
 
+   2. Transient Analysis
+
+   
+   To perform transient analysis we have to select the transient analysis in the edit simulation
+   and give the stop time as 5ms and run the simulation .
+   and the graph velow shows the transient response of the design.
+   
+   ![Screenshot 2025-02-17 200245](https://github.com/user-attachments/assets/05c9b471-494c-4c2e-9338-4be22166a47d)
+
+
+   3. AC analysis
+ 
+
+   TO perform AC analysis we have to select the ac analysis in the edit simulation command given the values as shown below
+
+   ![Screenshot 2025-02-17 184334](https://github.com/user-attachments/assets/b5b9b5b2-cc27-459c-87d9-27411895f901)
+
+   the Graph shown is the ac analysis
+
+
+   ![Screenshot 2025-02-17 200501](https://github.com/user-attachments/assets/4071bada-50cb-40a9-a838-694d6bf27e26)
+
+
+
+
  
 
    
