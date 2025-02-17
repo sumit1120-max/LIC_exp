@@ -123,7 +123,9 @@ As length is given 180nm by adjusting we will get width=1.08um
 
 
    1.DC Analysis:
-     To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
+
+   
+   To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
      the figure below is the values obtained from the DC analysis
     
    ![Screenshot 2025-02-17 200103](https://github.com/user-attachments/assets/e687b280-d032-4260-8452-b10457103dfc)
