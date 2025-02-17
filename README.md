@@ -92,24 +92,26 @@ As length is given 180nm by adjusting we will get width=1.08um
 
 
    # Design-2
-   Aim : To find DC operating point,find gain using transient analysis and AC analysis.
+   Aim : To find DC operating point find gain using transient analysis and AC analysis.
 
-   Components : Mosfets (M1 and M2),DC power supply.
+   Components : Mosfets M1 and M2 DC power supply.
 
    Procedure :
 
-   Make the circuit connection as show above.
-   Connect DC power supply to the gate terminal.
+   Make the circuit connections as show abovce.
+   Connect dc power supply to the gate terminal.
    Connect the source terminal to the ground.
-   Set the input voltage by obtaining VTC curve and VDD to 1.8 V.
+   Set the input voltage by obtaining Vtc curve and Vdd to 1.8 V.
 
-Using the Formula for Power,
+Using the Formula for Power
 
-P=V*I/n
+P=vi
 
-We will get the Values of Id as,
+We will get the Values of Id
 
-Id= 5.56 * 10^-5 A
+Id= 27uA
+
+
 we have to get the output current, Id for the given circuits by adjusting the values of L & W of both the MOSFETS M1 & M2 ( Length and Width of the Channel of the MOSFET)
    
 
