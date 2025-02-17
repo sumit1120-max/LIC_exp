@@ -154,6 +154,40 @@ As length is given 180nm by adjusting we will get width=1.08um
    ![Screenshot 2025-02-17 200501](https://github.com/user-attachments/assets/4071bada-50cb-40a9-a838-694d6bf27e26)
 
 
+   RESULTS:
+
+  1.DC analysis
+  
+  
+  The calculated drain current Id aligns with the expected value based on power and voltage  where the value of Id = 27um 
+  By fine-tuning the channel dimensions  of both MOSFETs  the desired current was achieved L=180nm and W=0.61um for both mosfets
+  The circuit operates correctly within the selected DC parameters 
+
+  
+  2.Transient Analysis:
+
+  The transient response graph confirms that the circuit transitions smoothly over time.
+  The circuit responds effectively to input variations, indicating stable operation.
+
+  
+  3.AC Analysis:
+
+  The AC response graph confirms that the circuit maintains stability over the tested frequency range.
+  The circuit functions as expected under AC conditions.
+
+
+  INFERENCE:
+
+
+ the experiment validates that by choosing the correct mosfet dimensiions the drain current can be effectively regulated.
+
+  The voltage transfer characteristics  helped to select the correct operating voltage  for saturation.
+
+ M2 has a stronger influence on Id, meaning its width significantly affects the output current. Increase in width increases Id drastically and vice-versa.
+M1 has a smaller influence, meaning changes in its width result in only minor variations in Id. Increase in qidth increases Id by small amounts and vice-versa.
+The design meets the expected performance criteria and follows theoretical predictions, demonstrating its feasibility in practical applications.
+
+
 
 
  
