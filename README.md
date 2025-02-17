@@ -32,5 +32,47 @@ As length is given 180nm by adjusting we will get width=1.08um
    To perform transient analysis we have to select the transient analysis in the edit simulation
    and give the stop time as 5ms and run the simulation .
    and the graph velow shows the transient response of the design.
+
+   ![Screenshot 2025-02-17 175139](https://github.com/user-attachments/assets/10b1c6e3-255a-4848-aa02-cc2036cd8cb7)
+
+
+3. AC analysis
+ 
+
+   TO perform AC analysis we have to select the ac analysis in the edit simulation command given the values as shown below
+
+   ![Screenshot 2025-02-17 184334](https://github.com/user-attachments/assets/b5b9b5b2-cc27-459c-87d9-27411895f901)
+
+   the Graph shown is the ac analysis
+
+   ![Screenshot 2025-02-17 175437](https://github.com/user-attachments/assets/e0dc0b7d-5dd9-4f7b-9055-76ce8109f34f)
+
+
+   Result:
+
+
+    DC analysis
+
+   
+    The calculated drain current matches the expected value based on power and voltage, Id = 27uA.
+    By adjusting the mosfets channel dimensions where L=180nm and W= 1.08um, The current requirement was succesfully achecived.
+    The circuit behaves as expected under DC conditions.
+
+
+     Transient Analysis:
+
+     The transient response graph shows how the circuit behaves over time.
+     The response is smooth, with no unexpected delays or distortions.
+     The circuit reacts well to changes, confirming its stability.
+   
+     AC Analysis:
+
+     The AC response graph confirms that the circuit remains stable at different frequencies.
+     The gain(-9.94 dB) and phase shift(which is nearly 180deg) align with theoretical expectations.
+     The circuit maintains its performance across the tested frequency range.
+
+
+ 
+
    
 
