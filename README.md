@@ -59,17 +59,26 @@ As length is given 180nm by adjusting we will get width=1.08um
     The circuit behaves as expected under DC conditions.
 
 
-     Transient Analysis:
+     Transient Analysis
 
      The transient response graph shows how the circuit behaves over time.
      The response is smooth, with no unexpected delays or distortions.
      The circuit reacts well to changes, confirming its stability.
    
-     AC Analysis:
+     AC Analysis
 
      The AC response graph confirms that the circuit remains stable at different frequencies.
      The gain(-9.94 dB) and phase shift(which is nearly 180deg) align with theoretical expectations.
      The circuit maintains its performance across the tested frequency range.
+
+
+
+     Inference
+
+     the experiment validates that by choosing the correct mosfet dimensiions the drain current can be effectively regulated.
+     the width of mosfet significantaly impacts the drain current indicates that any variation in the width directly influences tbe output current . an increas in the width 
+     leads to a higher Id and if decreased id also decreases.
+     The design works and follwing theortical prediction and it matches the practical value.
 
 
  
