@@ -183,9 +183,9 @@ As length is given 180nm by adjusting we will get width=1.08um
 
   The voltage transfer characteristics  helped to select the correct operating voltage  for saturation.
 
- M2 has a stronger influence on Id, meaning its width significantly affects the output current. Increase in width increases Id drastically and vice-versa.
-M1 has a smaller influence, meaning changes in its width result in only minor variations in Id. Increase in qidth increases Id by small amounts and vice-versa.
-The design meets the expected performance criteria and follows theoretical predictions, demonstrating its feasibility in practical applications.
+ M1  has a stronger influence on ID, meaning its width significantly affects the output current  Increase in width increases Id  and vice-versa.
+M2 has a smaller influence on ID  meaning changes in its width result in only minor changes  in Id. Increase in width increases ID by small value and vice-versa.
+
 
 
 
