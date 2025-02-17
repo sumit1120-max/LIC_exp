@@ -81,6 +81,12 @@ As length is given 180nm by adjusting we will get width=1.08um
      The design works and follwing theortical prediction and it matches the practical value.
 
 
+
+
+   # Design-2
+   Aim:
+   
+
  
 
    
