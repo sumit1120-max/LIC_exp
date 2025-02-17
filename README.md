@@ -24,3 +24,9 @@ As length is given 180nm by adjusting we will get width=1.08um
    
    ![Screenshot 2025-02-17 174813](https://github.com/user-attachments/assets/b9221c03-af3a-4221-a274-6dc18f9150c5)
 
+2. Transient Analysis
+   To perform transient analysis we have to select the transient analysis in the edit simulation
+   and give the stop time as 5ms and run the simulation .
+   and the graph velow shows the transient response of the design.
+   
+
