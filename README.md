@@ -76,6 +76,11 @@ As length is given 180nm by adjusting we will get width=1.08um
 
 
 
+
+
+
+
+
      Inference
 
      the experiment validates that by choosing the correct mosfet dimensiions the drain current can be effectively regulated.
