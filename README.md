@@ -17,3 +17,4 @@ we get current=27uA
 by adjusting the value of width and length of the mosfet we will get the current Id 
 As length is given 180nm by adjusting we will get width=1.08um
 1. DC analysis
+2. DC analysis
