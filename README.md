@@ -93,7 +93,8 @@ As length is given 180nm by adjusting we will get width=1.08um
 
 # Design-2
 
-![Screenshot 2025-02-17 202320](https://github.com/user-attachments/assets/e216f2bb-7e24-436e-8c86-d88d0840e2d4)
+![Screenshot 2025-02-18 154637](https://github.com/user-attachments/assets/2e269390-0978-4d0d-b7f5-1f2f2e05e694)
+
 
    Aim : To find DC operating point find gain using transient analysis and AC analysis.
 
@@ -128,7 +129,8 @@ As length is given 180nm by adjusting we will get width=1.08um
    To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
      the figure below is the values obtained from the DC analysis
     
-   ![Screenshot 2025-02-17 200103](https://github.com/user-attachments/assets/e687b280-d032-4260-8452-b10457103dfc)
+   ![Screenshot 2025-02-18 153133](https://github.com/user-attachments/assets/111fc880-da3b-4b5d-aafe-3835d2d6c381)
+
 
 
    2. Transient Analysis
@@ -137,8 +139,9 @@ As length is given 180nm by adjusting we will get width=1.08um
    To perform transient analysis we have to select the transient analysis in the edit simulation
    and give the stop time as 5ms and run the simulation .
    and the graph velow shows the transient response of the design.
+   ![Screenshot 2025-02-18 153440](https://github.com/user-attachments/assets/7d66627c-e292-444f-b599-5b3267a617f2)
+
    
-   ![Screenshot 2025-02-17 200245](https://github.com/user-attachments/assets/05c9b471-494c-4c2e-9338-4be22166a47d)
 
 
    3. AC analysis
@@ -150,8 +153,27 @@ As length is given 180nm by adjusting we will get width=1.08um
 
    the Graph shown is the ac analysis
 
+   ![Screenshot 2025-02-18 153641](https://github.com/user-attachments/assets/a82ecce8-26f7-4101-a7e8-b2735f4e6a9a)
 
-   ![Screenshot 2025-02-17 200501](https://github.com/user-attachments/assets/4071bada-50cb-40a9-a838-694d6bf27e26)
+
+
+
+   DC sweep:
+
+
+   ![Screenshot 2025-02-18 153954](https://github.com/user-attachments/assets/2b617a24-66a9-41d9-8617-496d549e74f8)
+
+
+
+   gain:
+   
+
+   ![Screenshot 2025-02-18 154231](https://github.com/user-attachments/assets/e853f87e-7f95-4139-8f51-8660fe432ed5)
+
+   
+
+
+   
 
 
    RESULTS:
