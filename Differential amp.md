@@ -88,7 +88,7 @@ connect a current souce of 1mA
 
    
    we have to give deg of 180deg to one mosfet and 0deg to the other mosfet
-
+   and ac amplitude 1 for one mosfet and 0 for other mosfet
   ![Screenshot 2025-03-02 130322](https://github.com/user-attachments/assets/9ae919cf-f16c-4df7-ac50-e22cc623c2f2)
 
 
@@ -110,9 +110,25 @@ connect a current souce of 1mA
 
  To get the output voltage and vp and current desired value we have to 
  vary the width and length of the new mosfet
+![Screenshot 2025-03-02 190203](https://github.com/user-attachments/assets/39f0a14a-c7f1-45ce-b951-6841a94a4e38)
 
- 
-![Screenshot 2025-03-02 123127](https://github.com/user-attachments/assets/a8aa762b-45df-4152-8287-0c94195bd979)
+
+# DC analysis:
+
+
+<img width="472" alt="image" src="https://github.com/user-attachments/assets/417842be-d7ad-4955-8086-b77ea97d490e" />
+
+ # Transient analysis:
+ give ac amplitude as 1 for one mosfet and 0 gor other mosfet 
+
+ ![Screenshot 2025-03-02 123127](https://github.com/user-attachments/assets/431d7132-e2fb-4870-b625-a5334a2e9a9d)
+
+# AC analysis:
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/56a10839-f8b8-40e4-8c2f-a01d9dda29f3" />
+
+
+
+
 
 
   
