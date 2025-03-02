@@ -79,7 +79,16 @@ Now replace the R3 resister with a current source :
    <img width="472" alt="image" src="https://github.com/user-attachments/assets/96fdac9f-4c40-4170-8c04-0400ca6c4eb8" />
 
 
-   # 
+   # Trasient analysis:
+
+  To perform transient analysis we have to select the transient analysis in the edit simulation
+   and give the stop time as 5ms and run the simulation .
+   and the graph velow shows the transient response of the design
+
+  ![Screenshot 2025-03-02 130322](https://github.com/user-attachments/assets/9ae919cf-f16c-4df7-ac50-e22cc623c2f2)
+
+
+   
 
 
 
