@@ -79,6 +79,9 @@ Now replace the R3 resister with a current source :
    <img width="472" alt="image" src="https://github.com/user-attachments/assets/96fdac9f-4c40-4170-8c04-0400ca6c4eb8" />
 
 
+   # 
+
+
 
    
 
