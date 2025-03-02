@@ -84,6 +84,8 @@ Now replace the R3 resister with a current source :
   To perform transient analysis we have to select the transient analysis in the edit simulation
    and give the stop time as 5ms and run the simulation .
    and the graph velow shows the transient response of the design
+
+   
    we have to give deg of 180deg to one mosfet and 0deg to the other mosfet
 
   ![Screenshot 2025-03-02 130322](https://github.com/user-attachments/assets/9ae919cf-f16c-4df7-ac50-e22cc623c2f2)
