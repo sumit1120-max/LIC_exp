@@ -23,6 +23,9 @@ now calculate the Rss and Rd
 
 Now to get the desired values of output voltage and current we have to vary the width and length of both the mosfet
 we got L=190nm and W=6.7877um 
+
+
+
 ![1 2](https://github.com/user-attachments/assets/5282f237-db25-410c-8b19-9d7db7f8c846)
 
 
@@ -42,5 +45,7 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
   To perform transient analysis we have to select the transient analysis in the edit simulation
    and give the stop time as 5ms and run the simulation .
    and the graph velow shows the transient response of the design.
+
+   
    
 
