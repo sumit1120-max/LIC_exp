@@ -244,7 +244,17 @@ now calculate the Rss and Rd
    the figure below is the values obtained from the DC analysis
 
 ![1 1](https://github.com/user-attachments/assets/1ab4f485-9543-42fa-9e90-4e9dc949ebcd)
+Here in dc analysis we got the vout as expected and id1 and id2 we got the same 
 
+
+# Transient analysis:
+
+  To perform transient analysis we have to select the transient analysis in the edit simulation
+   and give the stop time as 5ms and run the simulation .
+   and the graph velow shows the transient response of the design.
+
+   
+ 
 
 
 
