@@ -128,6 +128,12 @@ connect a current souce of 1mA
 
 
 
+# DC sweep :
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/15f102e5-5ba4-40c5-965c-3c6d8668217b" />
+
+
+
+
 
 
 
