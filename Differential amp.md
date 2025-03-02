@@ -60,6 +60,26 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
    ![1 4](https://github.com/user-attachments/assets/e38ceac5-13a9-46b8-ad3c-efeac570178f)
 
 
+
+
+
+# Circuit-2:
+
+
+Now replace the R3 resister with a current source :
+
+<img width="670" alt="1 5" src="https://github.com/user-attachments/assets/f3c98134-6cfc-4c7e-8c4e-f83fc4acd578" />
+
+
+# DC analysis:
+
+  To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation
+   the figure below is the values obtained from the DC analysis
+
+   <img width="472" alt="image" src="https://github.com/user-attachments/assets/96fdac9f-4c40-4170-8c04-0400ca6c4eb8" />
+
+
+
    
 
    
