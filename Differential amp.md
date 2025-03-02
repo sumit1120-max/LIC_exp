@@ -38,6 +38,7 @@ we got L=190nm and W=6.7877um
    the figure below is the values obtained from the DC analysis
 
 ![1 1](https://github.com/user-attachments/assets/1ab4f485-9543-42fa-9e90-4e9dc949ebcd)
+
 Here in dc analysis we got the vout as expected and id1 and id2 we got the same 
 
 
@@ -47,6 +48,12 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
    and give the stop time as 5ms and run the simulation .
    and the graph velow shows the transient response of the design.
 
-   
+   ![1 3](https://github.com/user-attachments/assets/2d77788f-18f4-4256-a3c5-23f53ab94900)
+
+# AC analysis:
+ 
+
+   ![1 4](https://github.com/user-attachments/assets/e38ceac5-13a9-46b8-ad3c-efeac570178f)
+
    
 
