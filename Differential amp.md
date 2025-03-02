@@ -132,7 +132,30 @@ connect a current souce of 1mA
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/15f102e5-5ba4-40c5-965c-3c6d8668217b" />
 
 
+# Result:
 
+1. Circuit-1: 
+   - The DC analysis shows that the MOSFETs operate in saturation with balanced drain currents when input voltages are equal.  
+   - The transient response confirms proper differential behavior.  
+   - The AC analysis indicates moderate gain and common-mode rejection.  
+
+2. Circuit-2:  
+   - Replacing the resistor with a current source improves bias stability, as seen in the DC analysis.  
+   - The transient response is more stable, ensuring better symmetry.  
+   - The AC analysis shows increased gain and bandwidth compared to Circuit-1.  
+
+3. Circuit-3:  
+   - The DC analysis confirms that the MOSFET-based current source regulates the tail current effectively.  
+   - The transient response maintains signal accuracy with improved performance.  
+   - The AC analysis shows higher gain and bandwidth.  
+   - The DC sweep analysis validates expected output variations.  
+
+# Inference:  
+
+- The tail current source significantly affects gain and stability.  
+- The resistor-based design has lower gain and common-mode rejection.  
+- The current source improves circuit stability and differential performance.  
+- The MOSFET-based current source provides the best gain and frequency response.
 
 
 
