@@ -67,6 +67,7 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
 
 
 Now replace the R3 resister with a current source :
+connect a current souce of 1mA
 
 <img width="670" alt="1 5" src="https://github.com/user-attachments/assets/f3c98134-6cfc-4c7e-8c4e-f83fc4acd578" />
 
@@ -97,6 +98,24 @@ Now replace the R3 resister with a current source :
  
   <img width="959" alt="image" src="https://github.com/user-attachments/assets/98ec35e3-cac9-41a6-b2cf-5384f4559b01" />
 
+
+
+
+  # Circuit-3:
+
+  Now replace the R3 resister with a Mosfet  :
+    Given vp=0.4v and wkt vt=0.36v we got the gate voltage of the new mosfet as 0.76v 
+
+  <img width="597" alt="image" src="https://github.com/user-attachments/assets/341047bc-e16a-4100-8158-de8a16f8dd22" />
+
+ To get the output voltage and vp and current desired value we have to 
+ vary the width and length of the new mosfet
+
+ 
+![Screenshot 2025-03-02 123127](https://github.com/user-attachments/assets/a8aa762b-45df-4152-8287-0c94195bd979)
+
+
+  
 
 
    
