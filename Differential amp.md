@@ -59,5 +59,10 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
 
    ![1 4](https://github.com/user-attachments/assets/e38ceac5-13a9-46b8-ad3c-efeac570178f)
 
+
+   
+
+   
+
    
 
