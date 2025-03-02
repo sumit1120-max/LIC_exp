@@ -51,6 +51,10 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
    ![1 3](https://github.com/user-attachments/assets/2d77788f-18f4-4256-a3c5-23f53ab94900)
 
 # AC analysis:
+
+   TO perform AC analysis we have to select the ac analysis in the edit simulation command given the values as shown below
+
+   ![Screenshot 2025-02-17 184334](https://github.com/user-attachments/assets/b5b9b5b2-cc27-459c-87d9-27411895f901)
  
 
    ![1 4](https://github.com/user-attachments/assets/e38ceac5-13a9-46b8-ad3c-efeac570178f)
