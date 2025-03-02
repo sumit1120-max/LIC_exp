@@ -12,7 +12,8 @@ differential amplifiers  consist of two transistors M1 and M2, whose sources are
 For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
 # Circuit-1
 Components Required: MOSFET(M1,M2 and M3), Resistor,voltage supply's 
-![Screenshot 2025-02-27 114940](https://github.com/user-attachments/assets/cb137296-37e7-4b93-aa88-99bb41a432fa)
+![1](https://github.com/user-attachments/assets/74e8e5d1-6cef-40d5-b0ff-d6814bfd2a3f)
+
 
 Procedure :
 Make the circuit connection as given above.
