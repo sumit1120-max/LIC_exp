@@ -88,6 +88,11 @@ Now replace the R3 resister with a current source :
   ![Screenshot 2025-03-02 130322](https://github.com/user-attachments/assets/9ae919cf-f16c-4df7-ac50-e22cc623c2f2)
 
 
+
+
+ # AC 
+
+
    
 
 
