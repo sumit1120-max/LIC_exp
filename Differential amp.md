@@ -10,7 +10,9 @@ VDD=2.2v,P<=2mW,Vicm=1.2v,Vocm=1.25v,Vp=0.4v
 differential amplifiers  consist of two transistors M1 and M2, whose sources are joined together. If two transistor are connected to the different voltage input then there current across M1 and M2 are different due to gate voltage.If in case the voltage supply at gate terminal is same then the current through the M1 and M2 are same.This configuration is called "Common Mode input voltage differential Amplifier".WHatever may be the load resistor, the MOSFET M1 and M2 should not go to the Triode region. It should be verified that MOSFET should be in Saturation Region.
 
 For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
-![image](https://github.com/user-attachments/assets/d773e4e2-0c75-46e0-8e75-9286eebc87a8)
+![image](https://github.com/user-attachments/assets/d773e4e2-0c75-46e0-8e75-9286eebc87a8)\
+
+![1 6](https://github.com/user-attachments/assets/b0967860-3eb6-41a3-8226-d9a7332ad5f5)
 
 
 Procedure:
