@@ -194,10 +194,16 @@ connect a current souce of 1mA
 
 # Inference:  
 
-- The tail current source significantly affects gain and stability.  
-- The resistor-based design has lower gain and common-mode rejection.  
-- The current source improves circuit stability and differential performance.  
-- The MOSFET-based current source provides the best gain and frequency response.
+This experiment explored differential amplifier configurations: resistor-based, current source-based, and NMOS-based, each affecting gain, bandwidth, and stability differently.  
+
+- Resistor: High bandwidth, low gain, low CMRR.  
+- Current source: High gain, high CMRR, slightly lower bandwidth.  
+- **NMOS (CMOSN)**: Highest gain.  
+
+ Best Configuration Based on Need:  
+1. **High bandwidth** → Resistor  
+2. **Maximum gain** → NMOS (CMOSN)  
+3. **Better CMRR** → Current source or NMOS (CMOSN)
 
 
 
