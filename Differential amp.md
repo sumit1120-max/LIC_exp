@@ -121,6 +121,16 @@ connect a current souce of 1mA
    we have to give deg of 180deg to one mosfet and 0deg to the other mosfet
    and ac amplitude 1 for one mosfet and 0 for other mosfet
   ![Screenshot 2025-03-02 130322](https://github.com/user-attachments/assets/9ae919cf-f16c-4df7-ac50-e22cc623c2f2)
+  Vocm = 1.44 -1.04
+  Vin = 1.25 - 1.15 V
+
+  Gain = vocm / Vin
+   = (1.44 - 1.04) / (1.25 - 1.15)
+
+ = 4
+ Gain in dB: 20 log (4)
+ =12.04
+ 
 
 
 
