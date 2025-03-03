@@ -137,7 +137,8 @@ connect a current souce of 1mA
 
  # AC analysis:
  
-  <img width="959" alt="image" src="https://github.com/user-attachments/assets/98ec35e3-cac9-41a6-b2cf-5384f4559b01" />
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/75f328de-9ee0-4011-ab77-b6078fc720c0" />
+
 
 
 
