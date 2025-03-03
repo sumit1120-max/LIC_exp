@@ -198,12 +198,12 @@ This experiment explored differential amplifier configurations: resistor-based, 
 
 - Resistor: High bandwidth, low gain, low CMRR.  
 - Current source: High gain, high CMRR, slightly lower bandwidth.  
-- **NMOS (CMOSN)**: Highest gain.  
+- NMOS (CMOSN): Highest gain.  
 
  Best Configuration Based on Need:  
-1. **High bandwidth** → Resistor  
-2. **Maximum gain** → NMOS (CMOSN)  
-3. **Better CMRR** → Current source or NMOS (CMOSN)
+1. High bandwidth → Resistor  
+2. Maximum gain→ NMOS (CMOSN)  
+3. Better CMRR→ Current source or NMOS (CMOSN)
 
 
 
