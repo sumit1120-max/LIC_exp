@@ -10,17 +10,32 @@ VDD=2.2v,P<=2mW,Vicm=1.2v,Vocm=1.25v,Vp=0.4v
 differential amplifiers  consist of two transistors M1 and M2, whose sources are joined together. If two transistor are connected to the different voltage input then there current across M1 and M2 are different due to gate voltage.If in case the voltage supply at gate terminal is same then the current through the M1 and M2 are same.This configuration is called "Common Mode input voltage differential Amplifier".WHatever may be the load resistor, the MOSFET M1 and M2 should not go to the Triode region. It should be verified that MOSFET should be in Saturation Region.
 
 For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
+![image](https://github.com/user-attachments/assets/d773e4e2-0c75-46e0-8e75-9286eebc87a8)
+
+
+Procedure:
+
+1.Open the LTspice software, merge the library file for getting accurate values of NMOS.
+
+2.Select the components which are needed to us like for circuit 1 we need 1.9k & 0.4k resistor,2 CMOSN, three voltage sources(1.2v,2.2v),ground from the components list.
+
+3.Place them all components in necessory way which is helpfull, connect all the components as in given circuit .
+
+4.Link the specification of list of properties of mosfet like threshold voltage, temperature etc.
+
+5.Lets do the DC Analysis first by opting a simulation, we get .op so after placing it we will get the values of it, thet will displayed.
+
+6.After that lets take Transient analysis of 5m cycle so in input and output waveforms in 5 complete cycle, so here we get and seperate and combined waveforms of input and output.
+
+7.For AC analysis, we should do some changes like converting DC SOURCE to sinosoidal waveform (1.2,50m,1T),after that select the AC simulation from the given options of simulation after giving values of (Decade,20,01,1T). So we will get a output after placing node to output waveform .
+
+
 # Circuit-1
 Components Required: MOSFET(M1,M2 and M3), Resistor,voltage supply's 
 ![1](https://github.com/user-attachments/assets/74e8e5d1-6cef-40d5-b0ff-d6814bfd2a3f)
 
 
-Procedure :
-Make the circuit connection as given above.
-connect the resister at the source terminal of both mosfet 
-now calculate the value of Iss as power and vdd is given
-and calculate the Id1 and Id2 
-now calculate the Rss and Rd 
+
 
 Now to get the desired values of output voltage and current we have to vary the width and length of both the mosfet
 we got L=190nm and W=6.7877um 
@@ -40,6 +55,13 @@ we got L=190nm and W=6.7877um
 ![1 1](https://github.com/user-attachments/assets/1ab4f485-9543-42fa-9e90-4e9dc949ebcd)
 
 Here in dc analysis we got the vout as expected and id1 and id2 we got the same 
+Id1 = 0.5mA
+
+Id2 = 0.5mA
+
+Vocm = 1.25 V
+
+vocm2 = 1.25 V
 
 
 # Transient analysis:
@@ -50,6 +72,15 @@ Here in dc analysis we got the vout as expected and id1 and id2 we got the same
 
    ![1 3](https://github.com/user-attachments/assets/2d77788f-18f4-4256-a3c5-23f53ab94900)
 
+   Vout = 1.32 - 1.18 V
+   Vin = 1.25 - 1.15 V​
+   Gain = Vout / Vin
+ = (1.32 - 1.18) / (1.25 - 1.15)
+ = 1.4 
+ Gain in dB = 20 * log (1.4)
+  = 2.92 dB
+
+  
 # AC analysis:
 
    TO perform AC analysis we have to select the ac analysis in the edit simulation command given the values as shown below
