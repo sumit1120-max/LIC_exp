@@ -1,24 +1,22 @@
  # Current mirror circuit
 
 ## **Introduction**
+
+![images](https://github.com/user-attachments/assets/3ae63254-263f-486b-b57c-e95fbe108326)
 <p>
-A current mirror is a circuit designed to copy a current through one active device by controlling the current in another active device of a circuit, keeping the output current constant regardless of loading. Current mirrors are widely used in analog integrated circuits, such as operational amplifiers, to provide biasing and active loads. They are essential in ensuring that the current in one part of the circuit is accurately replicated in another part, which is crucial for maintaining the stability and performance of the circuit.Current mirrors are one of the most fundamental and widely used circuits in analog electronics. They are essential components in integrated circuits (ICs) and are used in a variety of applications, including biasing, active loads, and signal processing. The primary function of a current mirror is to replicate or "mirror" a reference current from one part of the circuit to another, ensuring that the output current remains constant regardless of variations in load or other external factors.
+A current mirror is an essential circuit in analog electronics that ensures a constant current is copied from one part of the circuit to another. It helps maintain circuit stability by ensuring that variations in load or other external factors do not affect the output current. These circuits are widely used in integrated circuits (ICs) for biasing, active loads, and signal processing, making them crucial in applications like operational amplifiers and other analog systems.
 </p>
 
 ## **Theory**
 <p>
 The basic idea behind a current mirror is to use a reference current to generate a mirrored current. The most common implementation uses two transistors, where the base-emitter voltage of the first transistor sets the base-emitter voltage of the second transistor, thereby controlling the current through the second transistor.
 </p>
-<p>
-Basic Current Mirror
-
-</p>
-
-![Screenshot 2025-03-24 004916](https://github.com/user-attachments/assets/831bdc7b-2f7c-4451-be5b-8d3f606198e3)
 
 
 
-<p>
+
+
+
 The simplest form of a current mirror consists of two bipolar junction transistors (BJTs) or MOSFETs. In the case of BJTs, the base and collector of the first transistor are connected together, and the base-emitter junctions of both transistors are connected in parallel. This configuration ensures that the base-emitter voltage of both transistors is the same, which in turn ensures that the collector currents are the same (assuming the transistors are identical).
 </p>
 <p>
@@ -110,18 +108,13 @@ This document presents the simulation results for the current mirror circuit wit
 ## Case 3: L = 1 µm
 ### Simulation Output
 <img width="545" alt="image" src="https://github.com/user-attachments/assets/e865ad60-7bc9-433d-8d42-c644a4ca1d29" />
+ W=12.46u.
+ W/L ratio of M1 and M2 transistors are maintained same i,e 1:1 .
 
 
+  ##  W/L Ratio of M1:M2 = 1:2
+<img width="471" alt="image" src="https://github.com/user-attachments/assets/f35d69eb-e8f1-41cf-93a3-1aa31d9e8475" />
 
-
-### Analysis
-- **Observation 1**: W=12.46u.
-- **Observation 2**: W/L ratio of M1 and M2 transistors are maintained same i,e 1:1 .
-
-
-  ## Special Case: W/L Ratio of M1:M2 = 1:2
-### Simulation Output
-![Screenshot 2025-03-23 234622](https://github.com/user-attachments/assets/bc8fc56a-e9fe-4519-8a27-6b833cadd7c4)
 
 ### Analysis
 - **Observation 1**: Width is kept at 180nm and length were M1:M2 = 2.38u:4.76u
