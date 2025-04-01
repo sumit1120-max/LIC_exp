@@ -81,8 +81,7 @@ I<sub>ref</sub>=I<sub>p</sub>=(I<sub>total</sub>)/2
 This document presents the simulation results for the current mirror circuit with different L (length) values of MOSFETs. The simulation was conducted for three cases with varying L values.
 
 ## Case 1: L = 180 nm
-
-![Screenshot 2025-04-01 194311](https://github.com/user-attachments/assets/790f42e7-08af-48a8-b7e9-93c6baab9e10)
+![Screenshot 2025-03-23 222940](https://github.com/user-attachments/assets/7a769f71-8a49-4fa8-bea2-246bde4d7241)
 
 
 
