@@ -8,22 +8,21 @@ A current mirror is an essential circuit in analog electronics that ensures a co
 </p>
 
 ## **Theory**
-<p>
-The basic idea behind a current mirror is to use a reference current to generate a mirrored current. The most common implementation uses two transistors, where the base-emitter voltage of the first transistor sets the base-emitter voltage of the second transistor, thereby controlling the current through the second transistor.
-</p>
+A current mirror operates by taking a reference current and duplicating it in another part of the circuit. This is typically achieved using two identical transistors.
+
+For Bipolar Junction Transistors (BJTs):
+
+The first transistor’s base and collector are connected together.
+
+Both transistors share the same base-emitter voltage, ensuring their collector currents remain equal.
+
+For MOSFETs:
+
+The first transistor’s gate and drain are connected together.
+
+Both transistors share the same gate-source voltage, resulting in equal drain currents.
 
 
-
-
-
-
-The simplest form of a current mirror consists of two bipolar junction transistors (BJTs) or MOSFETs. In the case of BJTs, the base and collector of the first transistor are connected together, and the base-emitter junctions of both transistors are connected in parallel. This configuration ensures that the base-emitter voltage of both transistors is the same, which in turn ensures that the collector currents are the same (assuming the transistors are identical).
-</p>
-<p>
-For MOSFETs, the gate and drain of the first transistor are connected together, and the gates of both transistors are connected. This ensures that the gate-source voltage of both transistors is the same, leading to the same drain current (assuming the transistors are identical).
-</p>
-
-<p>
 By neglecting the channel length modulation of the two  transistors the drain currents can be given as :
 <table>
 <td>I<sub>REF</sub> = K'<sub>n</sub>Cox (VGS - V TH)2</td>
