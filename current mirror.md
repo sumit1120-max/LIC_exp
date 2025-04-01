@@ -24,6 +24,9 @@ Both transistors share the same gate-source voltage, resulting in equal drain cu
 
 
 By neglecting the channel length modulation of the two  transistors the drain currents can be given as :
+
+
+
 <img width="231" alt="image" src="https://github.com/user-attachments/assets/cc962d81-87a9-4d36-a57a-e7c85e2bcaa1" />
 
 
@@ -57,9 +60,6 @@ I<sub>ref</sub>=I<sub>p</sub>=(I<sub>total</sub>)/2
 <td>I<sub>ref</sub>=I<sub>p</sub>=0.27mA</td>
 </table>
 
-## Simulation Outcones
-
-This document presents the simulation results for the current mirror circuit with different L (length) values of MOSFETs. The simulation was conducted for three cases with varying L values.
 
 ## Case 1: L = 180 nm
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/336e631a-ef74-44ab-904c-0a45c7557d68" />
@@ -71,9 +71,9 @@ This document presents the simulation results for the current mirror circuit wit
 
 
 
-### Analysis
-- **Observation 1**: W = 2.38u.
-- **Observation 2**: W/L ratio of M1 and M2 transistors are maintained same .
+### observation :
+W = 2.38u.
+W/L ratio of M1 and M2 transistors are maintained same .
 
 ## Case 2: L = 500 nm
 
@@ -84,13 +84,17 @@ This document presents the simulation results for the current mirror circuit wit
 
 
 
-### Analysis
-- **Observation 1**: W = 6.0649u
-- **Observation 2**: W/L ratio of M1 and M2 transistors are maintained same i,e 1:1 .
+### Observation :
+W = 6.0649u
+W/L ratio of M1 and M2 transistors are maintained same i,e 1:1 .
 
 ## Case 3: L = 1 µm
-### Simulation Output
+
 <img width="545" alt="image" src="https://github.com/user-attachments/assets/e865ad60-7bc9-433d-8d42-c644a4ca1d29" />
+
+
+
+
  W=12.46u.
  W/L ratio of M1 and M2 transistors are maintained same i,e 1:1 .
 
@@ -99,12 +103,11 @@ This document presents the simulation results for the current mirror circuit wit
 <img width="471" alt="image" src="https://github.com/user-attachments/assets/f35d69eb-e8f1-41cf-93a3-1aa31d9e8475" />
 
 
-### Analysis
-- **Observation 1**: Width is kept at 180nm and length were M1:M2 = 2.38u:4.76u
-- **Observation 2**: W/L ratio of M1 and M2 transistors are maintained same i,e 1:2 .
+### Observation : 
+Width is kept at 180nm and length were M1:M2 = 2.38u:4.76u
+ W/L ratio of M1 and M2 transistors are maintained same i,e 1:2 .
 
 ## Transient analysis 
-### SIMULATION OUTPUT
 
 
 
@@ -114,7 +117,7 @@ This document presents the simulation results for the current mirror circuit wit
 
 - **Observation** MaxOutSwing =  1.175V<sub>p-p</sub> 
 ## AC ANALYSIS
-### SIMULATION OUTPUT
+
 
 
 
@@ -128,13 +131,7 @@ This document presents the simulation results for the current mirror circuit wit
 
 
   
-## **ADVATAGES**
-  <p>
-1] Does not become sensitive to PVT parameters .
 
- ![Screenshot 2025-03-24 002513](https://github.com/user-attachments/assets/3310f5dd-6f76-45e0-ace9-0c2b4ff571cc)
-
- 2] Rejecting voltage biasing.
  
  # Results
 
@@ -159,12 +156,14 @@ This document presents the simulation results for the current mirror circuit wit
 
 ### DC ANALYSIS 
 
-![image](https://github.com/user-attachments/assets/ed562f99-b64b-44a9-b439-5413c8368bcc)
+<img width="338" alt="image" src="https://github.com/user-attachments/assets/874a401b-5bd2-470f-82ea-508ab92f668f" />
 
 
-- **Observation** We can observe that current accross M6 and M3 transistors are almost double because of 1:2 W/L ratio 
 
-- **Observation** We can observe that current accross M5 and M4 transistors are same because of 1:1 W/L ratio 
+# Observations:
+We can observe that current accross M6 and M3 transistors are almost double because of 1:2 W/L ratio 
+
+- We can observe that current accross M5 and M4 transistors are same because of 1:1 W/L ratio 
 
 ### TRANSIENT ANALYSIS 
 ![image](https://github.com/user-attachments/assets/e7c8540a-1c43-4fba-a4ab-9f1a69178629)
@@ -172,14 +171,14 @@ This document presents the simulation results for the current mirror circuit wit
 
 - **Observation** A<sub>v</sub>=Vout/V<sub>in</sub>
 - <p>
-i,e = 1.53/0.099 =15.45 v/v
+ = 1.53/0.099 =15.45 v/v
 
 
 ### AC ANALYSIS 
 
 ![image](https://github.com/user-attachments/assets/c17724f5-842e-41b3-b787-99a0176e08f5)
 
-- **Observation** B<sub>w</sub>=1.94G<sub>Hz</sub>
+# ObservationsB<sub>w</sub>=1.94G<sub>Hz</sub>
 
 
 ## INFERENCE 
