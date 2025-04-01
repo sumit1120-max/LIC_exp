@@ -97,8 +97,8 @@ This document presents the simulation results for the current mirror circuit wit
 ## Case 2: L = 500 nm
 
 
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/e8e96bc8-f23b-4837-87aa-6066343dc450" />
 
-![Screenshot 2025-03-23 224823](https://github.com/user-attachments/assets/c514a68f-ce51-458f-87df-067da75cd9e2)
 
 
 
