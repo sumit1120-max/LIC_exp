@@ -134,15 +134,10 @@ Width is kept at 180nm and length were M1:M2 = 2.38u:4.76u
 
  
  # Results
+**case1**
+LENGTH:180nm, WIDTH:2.38um  W/L = 1:1
+**case2**
 
-
-
-| Case       | L (Length) | W (Width) | W/L Ratio |
-|------------|------------|-----------|-----------|
-| Case 1     | 180 nm     | 2.38 µm   | 1:1       |
-| Case 2     | 500 nm     | 6.0649 µm | 1:1       |
-| Case 3     | 1 µm       | 12.46 µm  | 1:1       |
-| Special    | 180 nm     | 4.76 µm   | 1:2       |
 
 ## Inferences
 - Maintaining consistent W/L ratios for the MOSFETs ensures predictable operation of the current mirror.
