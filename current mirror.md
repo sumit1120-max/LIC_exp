@@ -24,27 +24,11 @@ Both transistors share the same gate-source voltage, resulting in equal drain cu
 
 
 By neglecting the channel length modulation of the two  transistors the drain currents can be given as :
-<table>
-<td>I<sub>REF</sub> = K'<sub>n</sub>Cox (VGS - V TH)2</td>
-<table>
-
-and
-<p>
-<table>
-<td>I<sub>out</sub> = mn Cox (VGS - V TH)2<tb>
-</tb>
-</table>
-</p>
-If we take ratio of two equations, we get,
-
-<table>
-<td>I<sub>ref</sub>=I<sub>out</sub></td>
-</table>
-
-</p>
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/cc962d81-87a9-4d36-a57a-e7c85e2bcaa1" />
 
 
-<p>
+
+
 
 ## CIRCUIT DIAGRAM 1
 ![Screenshot 2025-04-01 192526](https://github.com/user-attachments/assets/d7a18ae3-750f-4732-8729-3336cd872b74)
