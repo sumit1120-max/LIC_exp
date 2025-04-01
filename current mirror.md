@@ -109,9 +109,8 @@ This document presents the simulation results for the current mirror circuit wit
 
 ## Case 3: L = 1 µm
 ### Simulation Output
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/e865ad60-7bc9-433d-8d42-c644a4ca1d29" />
 
-
-![Screenshot 2025-03-23 232151](https://github.com/user-attachments/assets/f51819d8-7e93-4e2b-a58f-e60a87cf2b05)
 
 
 
