@@ -136,7 +136,19 @@ Width is kept at 180nm and length were M1:M2 = 2.38u:4.76u
  # Results
 **case1**
 LENGTH:180nm, WIDTH:2.38um  W/L = 1:1
+
+
 **case2**
+LENGTH:500nm, WIDTH:6.0649um  W/L = 1:1
+
+
+**case3**
+LENGTH:1um, WIDTH:12.46um  W/L = 1:1
+
+
+**case4**
+LENGTH:180nm, WIDTH:4.76um  W/L = 1:2
+
 
 
 ## Inferences
