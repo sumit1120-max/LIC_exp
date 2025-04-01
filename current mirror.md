@@ -159,7 +159,8 @@ LENGTH:180nm, WIDTH:4.76um  W/L = 1:2
 - Ensuring MOSFETs operate in the saturation region (V_1 > V_th) is crucial for proper functioning of the current mirror.
 
 ## CIRCUIT DIAGRAM 2
-![image](https://github.com/user-attachments/assets/7d2cbe1e-88d8-4500-aa88-74487d6b3bc2)
+<img width="702" alt="image" src="https://github.com/user-attachments/assets/46bcc5ef-9c81-4375-996e-a7b5535a0eb7" />
+
 
 ### DC ANALYSIS 
 
