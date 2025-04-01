@@ -169,8 +169,8 @@ We can observe that current accross M6 and M3 transistors are almost double beca
 ![image](https://github.com/user-attachments/assets/e7c8540a-1c43-4fba-a4ab-9f1a69178629)
 
 
-- **Observation** A<sub>v</sub>=Vout/V<sub>in</sub>
-- <p>
+# ObservationA<sub>v</sub>=Vout/V<sub>in</sub>
+
  = 1.53/0.099 =15.45 v/v
 
 
@@ -188,23 +188,9 @@ We can observe that current accross M6 and M3 transistors are almost double beca
 - **1:1 Ratio**: Higher accuracy owing to identical transistor sizes.
 - **1:2 Ratio**: Slight difference observed due to varying transistor widths.
 - **Inference**: The 1:1 ratio offers superior current matching.
-
-### Transistor Sizing
 - **1:1 Ratio**: Utilizes smaller transistors, thus requiring less chip area.
 - **1:2 Ratio**: Necessitates larger transistor widths, leading to increased area consumption.
 - **Inference**: The 1:1 ratio is more efficient in terms of chip area usage.
-
-### Output Resistance
-- **1:1 Ratio**: Exhibits higher output resistance, as a longer channel length (L) reduces lambda, thereby increasing r<sub>out</sub>.
-- **1:2 Ratio**: Shows slightly lower output resistance since larger transistor widths may introduce mismatch, slightly affecting lambda.
-- **Inference**: The 1:1 ratio provides better stability due to higher output resistance.
-
-### Power Consumption
 - **1:1 Ratio**: Consumes less power due to the use of smaller transistors.
 - **1:2 Ratio**: Consumes slightly more power because of the increased transistor sizes.
-- **Inference**: The 1:2 ratio results in higher power consumption due to larger devices.
 
-### Design Complexity
-- **1:1 Ratio**: Easier to implement and match.
-- **1:2 Ratio**: Requires precise selection of transistor width.
-- **Inference**: The 1:1 ratio is simpler to design and optimize.
